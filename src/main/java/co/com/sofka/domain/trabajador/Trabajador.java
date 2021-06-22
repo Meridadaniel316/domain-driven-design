@@ -21,7 +21,7 @@ public class Trabajador extends AggregateEvent<TrabajadorId> {
         super(entityId);
     }
 
-    public Trabajador(TrabajadorId entityId, CuentaId accountId, Nombres nombres, Apellidos apellidos, Identificacion identificacion, Horas horas, CategoriaId categoriaId, SueldoId sueldoId){
+    public Trabajador(TrabajadorId entityId, CuentaId accountId,Nombres nombres, Apellidos apellidos, Identificacion identificacion, Horas horas, CategoriaId categoriaId, SueldoId sueldoId){
         super(entityId);
         this.accountId = accountId;
         this.nombres = nombres;
